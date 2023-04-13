@@ -4,6 +4,9 @@ describe('MessageService', () => {
     let service: MessageService
 
     beforeEach(() => {
+        service = new MessageService();
+
+        
     })
     
     it('should have no messages to start', () => {
